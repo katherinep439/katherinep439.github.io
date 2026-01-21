@@ -33,3 +33,9 @@ h1 {
   background-color:#6783bf;
   color: white;
 }
+
+img {
+  display: block;
+  margin: auto;
+  width: 50%;
+}
