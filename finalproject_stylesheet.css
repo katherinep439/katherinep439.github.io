@@ -39,6 +39,9 @@ img {
   display: block;
   margin: auto;
 }
+iframe{
+  margin:auto;
+}
 
 .images {
     display: flex;
@@ -50,6 +53,7 @@ img {
 
 .images img {
   width:30%;
+  height:30%;
     object-fit: cover;
     border-radius: 12px;
     background-color: white;
