@@ -39,3 +39,25 @@ img {
   display: block;
   margin: auto;
 }
+
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+    flex-wrap: wrap;
+}
+
+.images img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 12px;
+    background-color: #ffe6f0;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+}
+
+.images img:hover {
+    transform: scale(1.03);
+}
