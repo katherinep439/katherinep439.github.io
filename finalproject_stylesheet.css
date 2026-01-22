@@ -40,7 +40,9 @@ img {
   margin: auto;
 }
 .video{
-  margin:auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .images {
