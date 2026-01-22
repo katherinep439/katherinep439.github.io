@@ -49,11 +49,10 @@ img {
 }
 
 .images img {
-    width: 300px;
-    height: 200px;
+  width:30%;
     object-fit: cover;
     border-radius: 12px;
-    background-color: #ffe6f0;
+    background-color: white;
     box-shadow: 0 1px 4px rgba(0,0,0,0.1);
     transition: transform 0.2s;
 }
